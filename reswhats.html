@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Message us on WhatsApp</title>
+	<meta name="description" content="Easy way to insert the floating button for Message us on Whatsapp.">
+	<meta name="keywords" content="WhatsApp, Floating, Message, WhatsApp API">
+	<meta name="author" content="Luan Novais">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://luan11.github.io/muow-example/assets/css/muow.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center my-5">
+			<div class="card">
+				<div class="card-header">
+					<h4>Code example:</h4>
+				</div>
+				<div class="card-body">
+					<pre>
+						<code>
+new Muow({
+	phone: '+55 (11) 91111-1111',
+	defaultMessage: 'Hello, have a time to talk to me?',
+	profile: {
+	picture: 'https://avatars1.githubusercontent.com/u/36796413?s=28&v=4',
+	name: 'Luan Novais'
+	},
+	messageFieldPlaceholder: 'Write what you need...'
+});
+			</code>
+		</pre>
+	</div>
+	<div class="card-footer">
+		<a class="btn btn-dark d-table mx-auto font-weight-bold" href="https://github.com/luan11/muo-whatsapp" target="_blank" rel="noopener">View on GitHub</a>
+	</div>
+</div>
+</div>
+</div>
+
+<script src="https://luan11.github.io/muow-example/assets/js/muow.min.js"></script>
+
+<script>
+	new Muow({
+		phone: '+593994589032',
+		defaultMessage: 'Hello, have a time to talk to me?',
+		profile: {
+			picture: 'https://avatars1.githubusercontent.com/u/36796413?s=28&v=4',
+			name: 'Luan Novais'
+		},
+		messageFieldPlaceholder: 'Write what you need...'
+	});
+</script>
+</body>
+</html>
